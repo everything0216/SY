@@ -1,8 +1,8 @@
 public class Hello{
-    int a = 5;
-    int b = 3;
+    static int a = 10;
+    static int b = 3;
 
     public static void main(String[] args){
-        System.out.println("hello");
+        System.out.println(a+b);
     }
 }
